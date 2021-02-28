@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
+import HelloWorld from "./components/HelloWorld";
+import RenderForm from "./components/RenderForm";
 
 const App = () => {
-    return (
-        <h1>
-            Hello from World
-        </h1>
-    );
-}
+  return (
+    <div>
+      <HelloWorld />
+      <RenderForm />
+    </div>
+  );
+};
 
 export default App;
